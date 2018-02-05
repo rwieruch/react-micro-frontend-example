@@ -1,9 +1,15 @@
-# react-webpack-babel-sophisticated
+# react-webpack-babel-hierarchical
 
-[![Build Status](https://travis-ci.org/rwieruch/react-webpack-babel-sophisticated.svg?branch=master)](https://travis-ci.org/rwieruch/react-webpack-babel-sophisticated)
+[![Build Status](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical.svg?branch=master)](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical)
 
 How to start to build your own: [The Minimal React Webpack Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
 Where to find a minimal version of it: [Here](https://github.com/rwieruch/minimal-react-webpack-babel-setup)!
+
+## Usage
+
+* `npm run dev`
+* `npm run dev:programming`
+* `npm run dev:installation`
 
 ## Features
 
@@ -33,11 +39,11 @@ Where to find a minimal version of it: [Here](https://github.com/rwieruch/minima
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/react-webpack-babel-sophisticated.git`
-* `cd react-webpack-babel-sophisticated`
+* `git clone git@github.com:rwieruch/react-webpack-babel-hierarchical.git`
+* `cd react-webpack-babel-hierarchical`
 * `npm install`
 * `npm start`
-* visit `http://localhost:8080/`
+* visit `http://localhost:8080`
 
 ## Other Scripts
 
