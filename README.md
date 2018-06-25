@@ -1,6 +1,6 @@
 # react-webpack-babel-hierarchical
 
-[![Build Status](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical.svg?branch=master)](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical)
+[![Build Status](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical.svg?branch=master)](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/)
 
 How to start to build your own: [The Minimal React Webpack Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
 Where to find a minimal version of it: [Here](https://github.com/rwieruch/minimal-react-webpack-babel-setup)!
