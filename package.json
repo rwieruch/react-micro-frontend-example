@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev",
     "build": "webpack --config build-utils/webpack.config.js --env.env=prod",
     "build:analyze": "npm run build -- --env.addon=bundleanalyze --env.addon=bundlevisualizer",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "jest --config ./jest.config.json"
   },
   "keywords": [],
   "author": "Robin Wieruch <opensource@rwieruch.com> (https://www.robinwieruch.de)",
@@ -29,6 +29,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
     "prettier": "^1.18.2",
     "react-hot-loader": "^4.12.15",
     "webpack": "^4.41.2",
@@ -41,6 +42,8 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-router": "^6.0.0-alpha.2",
+    "react-router-dom": "^6.0.0-alpha.2"
   }
 }
