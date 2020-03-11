@@ -1,45 +1,57 @@
-# advanced-react-webpack-babel-setup
+# react-micro-frontend-example
 
-[![Build Status](https://travis-ci.org/rwieruch/advanced-react-webpack-babel-setup.svg?branch=master)](https://travis-ci.org/rwieruch/advanced-react-webpack-babel-setup) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/advanced-react-webpack-babel-setup.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical.svg?branch=master)](https://travis-ci.org/rwieruch/react-webpack-babel-hierarchical) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/)
 
-Advanced React with Webpack Setup. How to set it up yourself:
+How to start to build your own: [The Minimal React Webpack Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
+Where to find a minimal version of it: [Here](https://github.com/rwieruch/minimal-react-webpack-babel-setup)!
 
-- [Minimal React + Webpack Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
-- [Advanced Webpack Setup](https://www.robinwieruch.de/webpack-advanced-setup-tutorial/)
-- [ESLint](https://www.robinwieruch.de/webpack-eslint/) + [ESLint + React](https://www.robinwieruch.de/react-eslint-webpack-babel/) + [Prettier + ESLint](https://www.robinwieruch.de/prettier-eslint/)
+## Usage
 
-[![Edit advanced-react-webpack-babel-setup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/rwieruch/advanced-react-webpack-babel-setup/tree/master/?fontsize=14)
+- `npm run dev`
+- `npm run dev:programming`
+- `npm run dev:installation`
 
 ## Features
 
-* React 16
-* Webpack 4
-* Babel 7
-* Hot Module Replacement
-* Dev + Production Builds
-* Dist Folder Managagement by Webpack
-* Common and environment specific Webpack Configuration
-* Composition of Webpack Configuration
-* Source Maps
-* Environment Variables
-* Webpack Add-Ons
-* ESLint + Prettier
-
-## DIY Add-Ons
-
-* [SVG Icons](https://www.robinwieruch.de/react-svg-icon-components/)
-* [CSS Modules](https://www.robinwieruch.de/react-css-modules/)
-* [Fonts Support](https://www.robinwieruch.de/webpack-font/)
-* [Images Support](https://www.robinwieruch.de/webpack-images/)
-
-## Alternatives
-
-* [Minimal React Webpack Babel Setup](https://github.com/rwieruch/minimal-react-webpack-babel-setup)
+- React 16
+- Webpack 3
+- Babel
+- Staging ES Next Features
+- Hot Module Replacement
+- Devevelopment and Production Scripts
+- Source Maps
+- Less Support, but exchangeable with Sass
+  - install sass-loader
+  - install adjust webpack config
+  - adjust .less extension and content
+- Image Support
+- Optimization
+  - Uglify
+  - Compression
+- Analyze Bundle
+  - Bundle Analyzer
+  - Bundle Visualizer
+- Tests
+  - Mocha
+  - Chai
+  - Enzyme
+  - Sinon
 
 ## Installation
 
-- `git clone git@github.com:rwieruch/advanced-react-webpack-babel-setup.git`
-- cd advanced-react-webpack-babel-setup
-- npm install
-- npm start
-- visit `http://localhost:8080/`
+- `git clone git@github.com:rwieruch/react-webpack-babel-hierarchical.git`
+- `cd react-webpack-babel-hierarchical`
+- `npm install`
+- `npm start`
+- visit `http://localhost:8080`
+
+## Other Scripts
+
+- `npm run build` (build application in dist folder)
+
+- `npm run test` (test application once)
+- `npm run tdd` (watch changing tests)
+
+- `npm run dev:bundleanalyze` (analyze dev bundle in browser)
+- `npm run build:bundleanalyze` (analyze build bundle in browser)
+- `npm run build:bundlevisualizer` (generate a stats HTML file to visualize bundles)
