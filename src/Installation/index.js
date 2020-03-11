@@ -11,7 +11,7 @@ const Installation = ({ isStandalone }) => (
     {!isStandalone && (
       <ul>
         <li>
-          <Link to={routes.DASHBOARD}>Back to Dashboard</Link>
+          <Link to={routes.PROGRAMMING}>Back to Programming</Link>
         </li>
       </ul>
     )}

@@ -11,7 +11,7 @@ const Programming = ({ isStandalone }) => (
     {!isStandalone && (
       <ul>
         <li>
-          <Link to={routes.DASHBOARD}>Back to Dashboard</Link>
+          <Link to={routes.INSTALLATION}>Back to Installation</Link>
         </li>
       </ul>
     )}

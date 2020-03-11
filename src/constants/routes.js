@@ -1,3 +1,2 @@
-export const DASHBOARD = '/';
-export const PROGRAMMING = '/programming';
+export const PROGRAMMING = '/';
 export const INSTALLATION = '/installation';
