@@ -1,10 +1,12 @@
 {
-  "name": "advanced-react-webpack-babel-setup",
+  "name": "react-micro-frontend-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev",
+    "start:programming": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev --env.micro=Programming",
+    "start:installation": "webpack-dev-server --config build-utils/webpack.config.js --env.env=dev --env.micro=Installation",
     "build": "webpack --config build-utils/webpack.config.js --env.env=prod",
     "build:analyze": "npm run build -- --env.addon=bundleanalyze --env.addon=bundlevisualizer",
     "test": "jest --config ./jest.config.json"

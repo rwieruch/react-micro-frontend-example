@@ -5,7 +5,7 @@ import * as routes from '../constants/routes';
 
 const Dashboard = () => {
   return (
-    <div>
+    <div style={{ padding: '20px' }}>
       <h1>Dashboard</h1>
 
       <ul>

@@ -10,6 +10,7 @@ import Dashboard from '../Dashboard';
 import Programming from '../Programming';
 import Installation from '../Installation';
 
+// eslint-disable-next-line react/prop-types
 const App = ({ title }) => (
   <div>
     <h1>{title}</h1>

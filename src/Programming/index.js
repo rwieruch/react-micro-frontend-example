@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom';
 
 import * as routes from '../constants/routes';
 
+// eslint-disable-next-line react/prop-types
 const Programming = ({ isStandalone }) => (
-  <div>
+  <div style={{ backgroundColor: 'green', padding: '20px' }}>
     <h1>Programming</h1>
 
     {!isStandalone && (
-      <Link to={routes.DASHBOARD}>Back to Dashboard</Link>
+      <ul>
+        <li>
+          <Link to={routes.DASHBOARD}>Back to Dashboard</Link>
+        </li>
+      </ul>
     )}
   </div>
 );

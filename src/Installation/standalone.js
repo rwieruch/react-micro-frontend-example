@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Installation from './';
+import Installation from '.';
 
 const InstallationStandalone = () => {
   const props = {};
 
-  return <Installation isStandalone={true} {...props} />;
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  return <Installation isStandalone {...props} />;
 };
 
 ReactDOM.render(
